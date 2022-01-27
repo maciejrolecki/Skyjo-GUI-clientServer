@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/Message_Protocol_SKYJO-1.1-SKYJO.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/skyjo_model-1.1-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

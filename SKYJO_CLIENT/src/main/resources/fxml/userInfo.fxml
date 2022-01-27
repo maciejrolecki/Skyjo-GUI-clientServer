@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane minHeight="388.0" minWidth="653.0" prefHeight="388.0" prefWidth="653.0" xmlns="http://javafx.com/javafx/13" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="title" alignment="TOP_CENTER" layoutY="51.0" prefHeight="48.0" prefWidth="653.0" text="INFORMATION UTILISATEUR" textFill="#1871c4" underline="true">
+         <font>
+            <Font name="3270 Narrow Nerd Font Complete Mono" size="44.0" />
+         </font>
+      </Label>
+      <Label layoutX="18.0" layoutY="156.0" prefHeight="31.0" prefWidth="90.0" text="User Mail :" />
+      <Label fx:id="userMail" layoutX="108.0" layoutY="159.0" prefHeight="25.0" prefWidth="90.0" text="Label" />
+      <Label layoutX="18.0" layoutY="192.0" prefHeight="31.0" prefWidth="75.0" text="Priority :" />
+      <Label fx:id="type" layoutX="108.0" layoutY="195.0" prefHeight="25.0" prefWidth="64.0" text="Label" />
+      <Label layoutX="18.0" layoutY="231.0" prefHeight="25.0" prefWidth="57.0" text="user ID:" />
+      <Label fx:id="id" layoutX="108.0" layoutY="235.0" text="Label" />
+      <Label alignment="TOP_CENTER" layoutY="329.0" prefHeight="25.0" prefWidth="653.0" text="Attendre un joueur si ADMIN ou Attendre réponse serveur si OTHER" />
+      <Label layoutX="298.0" layoutY="159.0" prefHeight="25.0" prefWidth="148.0" text="Number of winning games :" />
+      <Label fx:id="winningGames" layoutX="476.0" layoutY="159.0" prefHeight="25.0" prefWidth="90.0" text="Label" />
+      <Label layoutX="298.0" layoutY="195.0" prefHeight="25.0" prefWidth="90.0" text="Games played :" />
+      <Label fx:id="gamesPlayed" layoutX="476.0" layoutY="195.0" prefHeight="25.0" prefWidth="90.0" text="Label" />
+      <Label layoutX="298.0" layoutY="231.0" prefHeight="25.0" prefWidth="90.0" text="Lowest Score :" />
+      <Label fx:id="lowestScore" layoutX="476.0" layoutY="231.0" prefHeight="25.0" prefWidth="90.0" text="Label" />
+   </children>
+</Pane>
